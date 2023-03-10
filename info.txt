@@ -1,0 +1,26 @@
+echo "# angular_adminlte-app" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/KovacsZoltan65/angular_adminlte-app.git
+git push -u origin main
+
+
+Még több video:
+    https://www.youtube.com/results?search_query=angularjs+adminlt
+
+https://www.youtube.com/watch?v=hxlxe5mIuJU&ab_channel=KindsonTheTechPro
+
+https://www.kindsonthegenius.com/fleetmsv3-part-1-setup-angular-node-postgresql-and-angular-template/
+npm install admin-lte@^3.2 --save
+
+ng g m site-framework
+ng g c header
+ng g c sidebar
+ng g c footer
+ng g c pre-loader
+ng g c control-sidebar
+
+Generate Module with Lazy Loading
+    ng g m dashboard --route dashboard --module app.module
